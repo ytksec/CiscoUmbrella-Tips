@@ -20,3 +20,14 @@ SWG(Secure Web Gateway)製品であリ、主にDNSセキュリティに強みを
 
 ### エージェントソフト（Roaming Client）対応端末
 
+| OS | 対応可否 | 注意点 |
+| ------------- | ------------- | ------------- |
+| Windows  | ○  |  |
+| Mac  | ○  |  |
+| iOS  | ○  | MDM必須  |
+| Android  | ○  | MDM必須  |
+
+iOSとAndroidに関してはMDMが無いとプロファイルを配ることが出来ない（ストアからのアプリダウンロードだけではNG）ため、導入の際には注意が必要  
+iOSに関してはCSC(Cisco Secuurity Connector)をダウンロードした上でのMDMによるプロファイル配布設定が必要・・[ドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/cisco-security-connectorumbrella-%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AC%E3%82%A4%E3%83%89)  
+Androidに関してはAnyconnectアプリからUmbrellaモジュールのセットアップが必要・・[ドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/umbrella-module-for-anyconnect-android-os)  
+
