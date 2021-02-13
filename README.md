@@ -28,12 +28,12 @@ SWG(Secure Web Gateway)製品であリ、主にDNSセキュリティに強みを
 | Android  | ○  | MDM必須  |
 
 iOSとAndroidに関してはMDMが無いとプロファイルを配ることが出来ない（ストアからのアプリダウンロードだけではNG）ため、導入の際には注意が必要  
-iOSに関してはCSC(Cisco Secuurity Connector)をダウンロードした上でのMDMによるプロファイル配布設定が必要・・[ドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/cisco-security-connectorumbrella-%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AC%E3%82%A4%E3%83%89)  
-Androidに関してはAnyconnectアプリからUmbrellaモジュールのセットアップが必要・・[ドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/umbrella-module-for-anyconnect-android-os)  
+iOSに関してはCSC(Cisco Secuurity Connector)をダウンロードした上でのMDMによるプロファイル配布設定が必要・・[Umbrellaドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/cisco-security-connectorumbrella-%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AC%E3%82%A4%E3%83%89)  
+Androidに関してはAnyconnectアプリからUmbrellaモジュールのセットアップが必要・・[Umbrellaドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/umbrella-module-for-anyconnect-android-os)  
 
 ### 内部DNSを用いる必要がある場合の注意点
 
 Umbrella Roaming Clientをインストールすると端末のDNS情報がUmbrellaのDNSに書き換えられるため、DNSセキュリティが実現出来る。  
 しかし、企業内など内部DNSにて名前解決をしなければならない際は、事前にUmbrellaに内部ドメイン、名前の設定が必要。  
-参考　https://docs.umbrella.com/deployment-umbrella/docs/%E4%BB%98%E9%8C%B2-d%E5%86%85%E9%83%A8%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3
+参考　[Umbrellaドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/%E4%BB%98%E9%8C%B2-d%E5%86%85%E9%83%A8%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3)
 
