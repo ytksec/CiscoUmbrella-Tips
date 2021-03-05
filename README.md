@@ -31,7 +31,7 @@ iOSとAndroidに関してはMDMが無いとプロファイルを配ることが�
 iOSに関してはCSC(Cisco Secuurity Connector)をダウンロードした上でのMDMによるプロファイル配布設定が必要・・[Umbrellaドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/cisco-security-connectorumbrella-%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97-%E3%82%AC%E3%82%A4%E3%83%89)  
 Androidに関してはAnyconnectアプリからUmbrellaモジュールのセットアップが必要・・[Umbrellaドキュメント](https://docs.umbrella.com/deployment-umbrella/docs/umbrella-module-for-anyconnect-android-os)  
 
-また、VPNソフトウェアであるCisco AnyconnectにUmbrellaモジュールとしても搭載が可能。その場合は、上記のUmbrellaライセンスの他にAnyconnectライセンスが別途必要。
+また、VPNソフトウェアであるCisco Anyconnectに追加モジュール(Umbrella Roaming Security Module)としても搭載が可能。その場合は、上記のUmbrellaライセンスの他にAnyconnectライセンスが別途必要。
 
 ### Umbrella関連のドキュメントがよくまとまっているサイト
 
