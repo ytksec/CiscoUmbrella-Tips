@@ -56,5 +56,10 @@ Umbrella Roaming Clientをインストールすると端末のDNS情報がUmbrel
 
 UmbrellaのID識別はエージェント利用、AD連携が基本となる。  
 以下AD連携時に参考になるサイト  
-https://docs.umbrella.com/deployment-umbrella/docs/identity-support-for-the-roaming-client  
-https://community.cisco.com/t5/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/umbrella-roaming-client-%E3%81%AE-identity-support-%E3%81%AE%E7%B4%B9%E4%BB%8B/ta-p/3299217
+Identityの考え：  
+[Cisco Community](https://community.cisco.com/t5/%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/umbrella-roaming-client-%E3%81%AE-identity-support-%E3%81%AE%E7%B4%B9%E4%BB%8B/ta-p/3299217)  
+[Umbrella document](https://docs.umbrella.com/deployment-umbrella/docs/identity-support-for-the-roaming-client)  
+
+AD連携integration：  
+[Umbrella document](https://docs.umbrella.com/deployment-umbrella/docs/1-ad-integration-setup-overview)
+
