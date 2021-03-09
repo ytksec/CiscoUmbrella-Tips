@@ -1,5 +1,6 @@
 # CiscoUmbrella-Tips
-Cisco Umbrellaに関する機能、技術情報をまとめていきます。
+Cisco Umbrellaに関する機能、技術情報をまとめていきます。  
+あくまで個人的な経験を元に作成している内容となりますので、正式な見解等はメーカードキュメントをご参照ください。
 
 ## Cisco Umbrella とは
 
